@@ -5,6 +5,13 @@ The goal of the Analytics Desk is to access the API's of various services and ge
 
 Data from the different services will be stored in the database, so that future API calls can be limited to new data.
 
+Dependencies:
+Twitter-async
+Pear
+
+Setup:
+You will require a config.php file which includes your DSN and twitter secrets
+
 Section 1: Twitter
 Use the Twitter-async library to create twitter connections.
 Track tweets, retweets, mentions, and followers
