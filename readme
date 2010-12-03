@@ -1,0 +1,31 @@
+AnalyticsDesk
+@author: Fafnir Crow
+
+The goal of the Analytics Desk is to access the API's of various services and get the stats you want to track. Currently many companys must log in and collect data for a variety of services to track their web properties and social impact. A long term extenstion of the AnalyticsDesk might be as a connection to a web application that lets you send messages to those properties. 
+
+Data from the different services will be stored in the database, so that future API calls can be limited to new data.
+
+Section 1: Twitter
+Use the Twitter-async library to create twitter connections.
+Track tweets, retweets, mentions, and followers
+Store all information that can be had from these tweets so that it can be later parsed.
+
+Display all data sorted by month
+
+Section 2: Facebook
+Connect to facebook insights and track page 'likes' as well as comments and content likes and total new content
+Insights only offers aggragete data so it is much harder to track success of individual posts automatically
+
+Section 3: Google Analytics
+Track total visits and unique visits
+While Analytics offers much more in depth data, at this point there is no real benefit in tracking that as a whole of AnalyticsDesk
+Possibly include ability to track certain landing pages in the future
+
+
+Section 4: SERR (Search Engine Result Rank)
+Undeveloped plan at this point.
+Search major search engines for keywords, then show where first result for a tracked domain appears
+
+Section 5: Radar
+
+Searchs media for mentions of particular keywords and alerts user to them.
