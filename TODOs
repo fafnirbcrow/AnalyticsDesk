@@ -1,0 +1,3 @@
+1. Set up follower count so that it will auto store per user once per day
+2. Set up so that when a user connects they see what info they are connected as (user_name, and latest follower count)
+3. Gather retweets and store them based on what is already stored
